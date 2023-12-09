@@ -319,7 +319,7 @@ function login(){
                 `
 
 
-                }else if(nameValue==='FlexDelivery' & userPass==='3030'){
+                }else if(nameValue==='good' & userPass==='3030'){
                     
                     admLogin=true  
                     welcome.innerHTML=` 
@@ -330,7 +330,7 @@ function login(){
                     sessionStorage.setItem("nameValueStorage",nameValue);
                     bodyDocument.style.cssText='overflow:auto;'
                     
-                }else if(nameValue==='goodvibes' & userPass==='3030'){ 
+                }else if(nameValue==='milton' & userPass==='3030'){ 
                     
                     admLogin=true  
                     document.getElementById('login').style.cssText="display:none;"
